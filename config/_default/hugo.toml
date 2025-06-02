@@ -1,4 +1,4 @@
-baseURL = 'https://dchahyunho-gitlab.duckdns.org/chahyunho-hugo-blog/'
+baseURL = 'https://dchahyunho-gitlab.duckdns.org/chahyunho-hugo-blog-decb70'
 copyright = "{year}" # To make 2007 - 2022. Just add before {year} example: 2007 - {year}
 languageCode = 'en-US'
 defaultContentLanguage = 'en'
