@@ -1,0 +1,37 @@
+[[main]]
+    identifier = "홈"
+    name = "홈"
+    url = "/"
+    weight = 1
+
+[[main]]
+identifier = "categories2"
+name = "Categories2"
+url = "/categories2"
+weight = 2
+
+[[main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 3
+
+[[main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+[[main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects"
+    weight = 5
+    
+# Social Media Configuration
+
+[[social]]
+    identifier = "github"
+    name = "GitLab"
+    url = "https://dchahyunho-gitlab.duckdns.org/explore"
+    weight = 1
