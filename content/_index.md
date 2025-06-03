@@ -1,5 +1,5 @@
 ---
-title: "안녕하세요!!!!!!!!!!!!!!!!!!!!!!"
+title: "안녕하세요!!!!"
 draft: false
 ---
 Lowkey is a Clean and Simple Hugo theme inspired by [Adam Wathan's](https://adamwathan.me/) Website. Suitable for use as a personal blog, portofolio, etc. 
