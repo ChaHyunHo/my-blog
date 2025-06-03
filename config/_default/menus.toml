@@ -10,23 +10,23 @@ name = "projects"
 url = "/projects"
 weight = 2
 
-[[main]]
-identifier = "Categories2"
-name = "Categories2"
-url = "/categories2"
-weight = 3
-
-[[main]]
-    identifier = "Categories"
-    name = "Categories"
-    url = "/categories"
-    weight = 4
-
-[[main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags"
-    weight = 5
+#[[main]]
+#identifier = "Categories2"
+#name = "Categories2"
+#url = "/categories2"
+#weight = 3
+#
+#[[main]]
+#    identifier = "Categories"
+#    name = "Categories"
+#    url = "/categories"
+#    weight = 4
+#
+#[[main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags"
+#    weight = 5
     
 # Social Media Configuration
 
