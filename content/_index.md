@@ -1,15 +1,22 @@
 ---
-title: "안녕하세요!!!!"
+title: "경력기술서"
 draft: false
 ---
-Lowkey is a Clean and Simple Hugo theme inspired by [Adam Wathan's](https://adamwathan.me/) Website. Suitable for use as a personal blog, portofolio, etc. 
+2020년부터 금융 IT 프로젝트 중심으로 Java 기반의 백엔드 개발 및 프론트 개발 업무를 수행해 왔습니다. 우리은행, 신한은행, 전북은행, SBI저축은행 등 주요 금융기관 시스템 구축에 참여하여 오픈뱅킹, 비대면 서비스, 인증 모듈 개발 등 다양한 기능을 구현 하였습니다.
 
-This theme uses TailwindCSS, so it's easy to customize.
+우리은행 NEW ONE 뱅킹 프로젝트에서는 계좌관리 및 조회 기능, 오픈뱅킹 거래내역조회, 계좌 비밀번호 및 별명 변경 등 사용자 편의 중심의 서비스 개발을 경험하였습니다.
+
+SBI저축은행 수신·여신 비대면 개발 프로젝트에서는 자동이체, 금리인하요구, 대출철회 등 여신서비스 및 인터넷뱅킹 수신서비스를 개발하여 고객이 원하는 방향을 중심으로 개발 및 안정성을 높였습니다.
+
+신한은행 차세대 시스템 구축 프로젝트(soltop 1·2차)에서는 BXM 프레임워크 기반의 기업뱅킹 및 공통업무 처리 모듈을 개발 및 레거시 시스템을 전환하여 신규 프레임워크에 맞는 환경으로 구축하였습니다.
+
+전북은행 스마트뱅킹 프로젝트에서는 바이오 인증서 발급·재발급·폐기, 패턴 인증 등록 등 모바일 인증 핵심 기능을 개발하였으며, JEX 프레임워크를 기반하여 시스템 구축 경험을 보유하고 있습니다.
+
+이외에도 금융결제원의 오픈API 포털 사이트 로그인 및 관리페이지 구축, 현대커머셜의 고트럭 부가서비스 개발 프로젝트에서 고객 설문조사 서비스 및 이벤트를 설계하고 구현한 바 있습니다.
+
+주요 기술로는 Java, Spring Framework, Spring Boot, JSP, jQuery, Oracle, JEUS, Tomcat, next.js, react 등을 다룰 수 있습니다.
+
+
+**PS**
 
 제 개발에 관련하여 관심을 가지고 계시다면 [GitLab](https://dchahyunho-gitlab.duckdns.org/explore)에 방문해주세요.
-
-**Example Description:**
-
-Alex Lowkey is a professor of artificial intelligence at the Unknow AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
