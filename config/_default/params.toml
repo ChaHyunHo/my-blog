@@ -28,6 +28,6 @@ enableEmoji = true
     # reactionsEnabled = 1
     # emitMetadata = 0
     # inputPosition = "top"
-    # theme = "light"
+    theme = "dark" #light 기본 다크모드로 설정
     # lang = "zh-CN"
     # lazyLoading = true
