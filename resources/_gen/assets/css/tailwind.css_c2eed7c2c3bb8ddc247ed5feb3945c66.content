@@ -1021,7 +1021,9 @@ nav a.active:is(.dark *) {
 }
 /* Content overrides */
 #content {
-  line-height: 1.5;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 1.625;
 }
 #content a {
   font-weight: 700;

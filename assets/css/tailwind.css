@@ -235,6 +235,7 @@
   /* Content overrides */
   #content {
     @apply leading-normal;
+    @apply text-sm leading-relaxed;
   }
 
   #content a {
