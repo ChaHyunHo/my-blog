@@ -2,6 +2,9 @@ image:
   name: klakegg/hugo:0.110.0-ext-alpine
   entrypoint: [""]
 
+variables:
+  GIT_DEPTH: 0  # shallow clone 방지
+
 stages:
   - build
   - mirror
@@ -9,9 +12,14 @@ stages:
 pages:
   stage: build
   script:
-    - git submodule update --init --recursive
-    - npm ci || npm install
-    - hugo
+    - git config --global user.name "ChaHyunHo"
+    - git config --global user.email "chamym@naver.com"
+    - git remote add github https://ChaHyunHo:${GITHUB_TOKEN}@github.com/ChaHyunHo/my-blog.git
+    - git fetch origin main
+    - git checkout -B main origin/main
+    - git gc --aggressive --prune=now
+    - git repack -a -d --depth=250 --window=250
+    - git push -f github main
   artifacts:
     paths:
       - public
