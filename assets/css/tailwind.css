@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/*깃허브 연동테스트*/
+
 @layer base {
   /* inter-100 - latin */
   @font-face {
