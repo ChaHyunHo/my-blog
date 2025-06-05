@@ -1,0 +1,37 @@
+image:
+  name: klakegg/hugo:0.110.0-ext-alpine
+  entrypoint: [""]
+
+stages:
+  - build
+  - mirror
+
+pages:
+  stage: build
+  script:
+    - git submodule update --init --recursive
+    - npm ci || npm install
+    - hugo
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+  tags:
+    - hugo
+
+mirror_to_github:
+  stage: mirror
+  script:
+    - git config --global user.name "ChaHyunHo"
+    - git config --global user.email "chamym@naver.com"
+    - git remote add github https://ChaHyunHo:${GITHUB_TOKEN}@github.com/ChaHyunHo/my-blog.git
+    - git fetch origin main
+    - git checkout -B main origin/main
+    - git push -f github main
+  only:
+    - main
+  rules:
+    - if: '$GITHUB_TOKEN'
+  tags:
+    - mirror
