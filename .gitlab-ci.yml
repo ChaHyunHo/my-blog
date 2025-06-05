@@ -31,7 +31,5 @@ mirror_to_github:
     - git push -f github main
   only:
     - main
-  rules:
-    - if: '$GITHUB_TOKEN'
   tags:
     - mirror
