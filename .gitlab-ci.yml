@@ -38,6 +38,7 @@ mirror_to_github:
     - mirror
 
 
+
 #  git config - 푸시 시 사용할 이름과 이메일 설정
 #  git remote add - GitHub 저장소를 github이라는 이름으로 추가
 #  git fetch origin main - GitLab의 최신 main 브랜치 가져오기
