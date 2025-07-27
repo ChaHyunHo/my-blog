@@ -5,6 +5,7 @@ image:
 variables:
   GIT_DEPTH: 0  # shallow clone 방지
 
+
 stages:
   - build
   - mirror
